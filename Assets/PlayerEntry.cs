@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerEntry : MonoBehaviour
 {
  public string playerName = "Ndu" ; // This box (variable) holds "playerName" holds the text "Ndu".
     
