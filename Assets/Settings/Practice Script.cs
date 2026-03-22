@@ -1,9 +1,13 @@
  using UnityEngine;
 
-public class Script : MonoBehaviour
+public class PracticeScript : MonoBehaviour
 {
+    private string PlayerName = "Ndu";
+
     void Awake()
     {
+        Function();
+        
         Debug.Log("Awake was called");
     }
 
@@ -11,5 +15,10 @@ public class Script : MonoBehaviour
     void Start()
     {
         Debug.Log("Start was called");
+    }
+
+    void Function()
+    {
+        Debug.Log(PlayerName);
     }
 }

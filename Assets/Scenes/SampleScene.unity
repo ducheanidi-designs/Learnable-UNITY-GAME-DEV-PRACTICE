@@ -426,7 +426,6 @@ GameObject:
   - component: {fileID: 841135504}
   - component: {fileID: 841135503}
   - component: {fileID: 841135507}
-  - component: {fileID: 841135508}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -580,25 +579,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 841135502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 697bed6daf8cf8f4aa7a8f014dcc44a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 85a46aaf3988ae14cae3dfce04770d0c, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerVariables
-  playerName: Ndu
-  playerAge: 70
-  playerSpeed: 6.5
-  isAlive: 1
---- !u!114 &841135508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841135502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1586b330a3aaed54699af754a3e0fe88, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Script
+  m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
+  playerHealth: 40
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
