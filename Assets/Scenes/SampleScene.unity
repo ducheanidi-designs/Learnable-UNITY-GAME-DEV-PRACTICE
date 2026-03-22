@@ -288,9 +288,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c7ffb63c1577444981e9e859d712660, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
-  playerName: Ndu Champ
-  playerAge: 70
+  playerName: D.Ichakaike
+  playerAge: 1000
   playerHealth: 100.5
+  playerDamage: 20
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
