@@ -22,6 +22,7 @@ public class EnemyScript : MonoBehaviour
         {
             AttackEnemy(enemy);
         }
+        CheckPlayerHealth();
     }
 
     void AttackEnemy(string enemyName)
@@ -42,23 +43,22 @@ public class EnemyScript : MonoBehaviour
 
             Debug.Log("Player health is now " + playerHealth);
         }
+    }
     
-        void CheckPlayerHealth()
+    void CheckPlayerHealth()
+    {
+        if (playerHealth > 50)
         {
-            if (playerHealth > 50)
-            {
-                Debug.Log("Player is strong");
-            }
-            else if (playerHealth <= 50)
-            {
-                Debug.Log("Player is weak");
-            }
-            else if (playerHealth <= 0)
-            {
-                Debug.Log("Player is dead and Stop the game");
-            }
+            Debug.Log("Player is strong");
         }
-
-    }    
+        else if (playerHealth <= 50)
+        {
+            Debug.Log("Player is weak");
+        }
+        else if (playerHealth <= 0)
+        {
+            Debug.Log("Player is dead and Stop the game");
+        }
+    }
 
 }
