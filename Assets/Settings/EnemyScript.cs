@@ -37,7 +37,7 @@ public class EnemyScript : MonoBehaviour
         }
         else
         {
-            Debug.Log("Fighting" + enemyName + "...");
+            Debug.Log("Fighting " + enemyName + "...");
 
             playerHealth -= 20;
 

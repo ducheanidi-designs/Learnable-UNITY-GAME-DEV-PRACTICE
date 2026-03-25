@@ -10,8 +10,8 @@ public class PlayerScript : MonoBehaviour
 
     void Awake()
     {
-        Debug.Log("Player name is -" + playerName);
-        Debug.Log("Player age is -" + playerAge);
+        Debug.Log("Player name is " + playerName);
+        Debug.Log("Player age is " + playerAge);
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
